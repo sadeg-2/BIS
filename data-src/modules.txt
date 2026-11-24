@@ -1,0 +1,64 @@
+py|برمجة Python|المتغيرات والشروط والحلقات;الدوال وهياكل البيانات;الملفات والاستثناءات وOOP;الحزم والاختبار وعميل API|أداة سطر أوامر مختبرة
+cs|برمجة C# والبرمجة الكائنية|الأنواع والتحكم والدوال;الأصناف والواجهات;Collections وLINQ;Async والاستثناءات وxUnit|نظام مكتبة مختبر
+tools|أدوات المبرمج|Linux وShell وSSH;Git وGitHub وPull Requests|مستودع موثق بتاريخ فروع
+net|أساسيات الشبكات|طبقات الشبكة وIP وSubnetting;DNS وHTTP وTLS وتشخيص الأعطال|تقرير تحليل حزم
+eng|الإنجليزية والتواصل المهني|قراءة التوثيق والكتابة التقنية;الاجتماعات والعروض وطلب المساعدة|توثيق وعرض بالإنجليزية
+office|أدوات العمل والتحليل|Excel والدوال وPivotTables;التقارير والعروض وكتابة الأعمال|تقرير إداري مبني على بيانات
+html|أساس الويب|HTML الدلالي والنماذج;CSS وFlexbox وGrid;التجاوب وRTL وAccessibility|موقع عربي متجاوب
+js|JavaScript|الأنواع والدوال وClosures;الكائنات والمصفوفات وModules;DOM والأحداث;Promises وFetch|تطبيق متصفح متصل بـAPI
+ts|TypeScript|الأنواع والواجهات وNarrowing;Generics والتحقق وإعداد المشروع|ترحيل مشروع إلى TypeScript
+sql|SQL وتصميم قواعد البيانات|SELECT والتجميع وJoins;CTE وWindow Functions;ER والتطبيع والفهارس والمعاملات|قاعدة بيانات مع استعلامات
+dsa|هياكل البيانات والخوارزميات|Big-O والمصفوفات والقوائم;Hashing والأشجار والفرز;الرسوم والبحث;Greedy وDynamic Programming|40 مسألة محلولة ومشروحة
+aspnet|ASP.NET Core|HTTP وMinimal APIs وControllers;EF Core والترحيلات;التحقق ومعالجة الأخطاء;JWT وOAuth2 والصلاحيات|API متجر آمن وموثق
+node|خدمات Node.js|Express أو NestJS وREST;PostgreSQL وPrisma;المصادقة والتحقق والأخطاء|API موثق بـOpenAPI
+fastapi|خدمات FastAPI|REST وPydantic والتبعيات;PostgreSQL والمصادقة والمهام الخلفية|API مختبر ومنشور
+react|React|المكونات وProps وState;Hooks والنماذج;التوجيه وجلب البيانات;إدارة الحالة والاختبار|لوحة تحكم كاملة
+next|Next.js والأداء|App Router وServer Components;المصادقة وServer Actions;Core Web Vitals وSEO والنشر|منتج ويب منشور
+ui|تصميم الواجهات|بحث المستخدم وWireframes;Figma وأنظمة التصميم واختبار الاستخدام|نموذج أولي مختبر
+test|الاختبار والجودة|تصميم الحالات وUnit Testing;Integration وE2E واختبارات API|حزمة اختبارات آلية
+arch|التصميم النظيف|SOLID وإعادة الهيكلة;Design Patterns;Clean Architecture وDDD|إعادة هيكلة موثقة
+dist|الرسائل والأنظمة الموزعة|Caching باستخدام Redis;Queues وKafka وIdempotency;Microservices وTracing|خدمتان متصلتان بالأحداث
+sysd|تصميم الأنظمة|تقدير الأحمال واختيار التخزين;التوسع والموثوقية وSLO;مراجعات تصميم وADR|وثيقة تصميم يدافع عنها الطالب
+docker|Docker وCI/CD|Images وVolumes وCompose;GitHub Actions والفحص والنشر|خط نشر آلي
+cloud|السحابة|IAM والحوسبة والتخزين;VPC وقواعد مدارة;Serverless والمراقبة والكلفة|تطبيق منشور بميزانية
+appsec|أمن التطبيقات|Threat Modeling وOWASP Top 10;الأسرار والتبعيات والمراجعة الأمنية|تقرير أمني مع الإصلاحات
+aidev|التطوير بوكلاء البرمجة|Claude Code وGitHub Copilot والمواصفات;مراجعة الكود المولد واختباره وحدوده|ميزة مبنية بوكيل مع سجل مراجعة
+math|رياضيات البيانات|المتجهات والمصفوفات;المشتقات وGradient Descent;الاحتمالات والتوزيعات|دفتر NumPy تطبيقي
+stats|الإحصاء التطبيقي|الوصف والتوزيعات والعينات;الفرضيات وA/B والانحدار|تحليل تجربة
+pandas|تحليل البيانات بـPython|NumPy وpandas;التنظيف والدمج;EDA والرسوم|تحليل استكشافي منشور
+bi|Power BI|Power Query;Star Schema;DAX;اللوحات والنشر والصلاحيات|لوحة مؤشرات تنفيذية
+story|التحليل لاتخاذ القرار|تحديد السؤال والمؤشرات;Data Storytelling وعرض التوصيات|مذكرة قرار وعرض
+ml|تعلم الآلة|المسألة وBaseline والانحدار;التصنيف والمقاييس;الأشجار وBoosting;Clustering والتفسير|نموذج مقارن بخط أساس
+dl|التعلم العميق|الشبكات وBackpropagation;PyTorch والتدريب;CNN وTransfer Learning;Attention وTransformers|نموذج عميق مع Model Card
+mlops|MLOps|تتبع التجارب والنماذج;النشر والمراقبة وData Drift|نموذج في الإنتاج
+llm|تطبيقات النماذج اللغوية|النماذج وTokens والكلفة;Claude API وOpenAI API وGemini API;Prompt وContext Engineering;Structured Outputs وTool Calling|مستخرج بيانات من وثائق عربية
+rag|RAG|Embeddings والتقطيع;Vector Databases والبحث الهجين;Reranking وقياس الاسترجاع|مساعد وثائق مع مجموعة تقييم
+mcp|Model Context Protocol|المعمارية وTools وResources وPrompts;بناء خادم وعميل والصلاحيات|خادم MCP لقاعدة بيانات
+agents|الوكلاء وAgentic AI|حلقة الوكيل والأدوات والذاكرة;Claude Agent SDK وOpenAI Agents SDK;LangGraph وتعدد الوكلاء والموافقة البشرية|وكيل ينجز إجراء عمل
+evals|التقييم وأمن AI|مجموعات الاختبار وEvals;Prompt Injection وGuardrails والخصوصية;المراقبة والكلفة وPrompt Caching|تقرير تقييم واختبار عدائي
+process|تحليل العمليات|اكتشاف الإجراءات وBPMN;قياس العائد وتحديد فرص الأتمتة|خريطة عملية وحساب عائد
+n8n|منصات الأتمتة|n8n وTriggers;APIs وWebhooks;Make والأخطاء وإعادة المحاولة;نقاط الموافقة والسجلات|ثلاث أتمتات عاملة
+req|تحليل المتطلبات|المقابلات وورش العمل;User Stories ومعايير القبول;BPMN وUML;وثيقة المتطلبات وإدارة التغيير|وثيقة متطلبات لعميل
+analysis|تحليل الأنظمة والحلول|نمذجة البيانات والتكامل;دراسة الجدوى والمفاضلة;مواصفات API والقبول|مواصفات حل كامل
+pmf|أساسيات إدارة المشاريع|الميثاق وأصحاب المصلحة;WBS والجدولة;الكلفة والميزانية;المخاطر والجودة|خطة مشروع متكاملة
+agile|Agile وإدارة التسليم|Scrum والأدوار;Backlog والتقدير;Kanban والمقاييس والتقارير|ثلاثة Sprints موثقة
+product|المنتج التقني|اكتشاف المشكلة وMVP;المؤشرات وخارطة المنتج|وثيقة منتج
+lead|القيادة والتفاوض|قيادة الفرق وإدارة النزاع;التفاوض وإدارة الموردين|محاكاة أزمة مشروع
+dart|Dart والبرمجة الكائنية|الأنواع والدوال وOOP;Futures وStreams والاختبار|حزمة Dart مختبرة
+flutter|Flutter|Widgets والتخطيط;التنقل والنماذج وRTL;REST والحالة باستخدام Riverpod;التخزين المحلي والعمل دون اتصال|تطبيق متصل بـAPI
+mobile|هندسة تطبيقات الجوال|Firebase والإشعارات;قدرات الجهاز وPlatform Channels;الأمن والأداء والاختبار;النشر في Google Play وApp Store|تطبيق جاهز للمتاجر
+mobilebe|خدمات الجوال|تصميم API والمصادقة;المزامنة وحل التعارض|API يدعم العمل دون اتصال
+linux|إدارة Linux وWindows|المستخدمون والصلاحيات والخدمات;السجلات والعمليات وBash;Active Directory وPowerShell|بيئة خوادم موثقة
+sec|أسس الأمن السيبراني|التهديدات والمخاطر;التشفير والهوية;تقسية الأنظمة والشبكات;أمن الويب والسحابة|تقييم وتقسية مختبر
+soc|مراقبة الأمن SOC|السجلات وWazuh;Splunk أو Sentinel;MITRE ATT&CK وSigma;فرز التنبيهات والتصيد|مختبر SOC بقواعد كشف
+ir|الاستجابة والتحقيق الجنائي|دورة الحادث;تحليل القرص والذاكرة;Threat Hunting والتقرير|تحقيق حادث كامل
+pentest|اختبار الاختراق الأخلاقي|الإطار القانوني والاستطلاع;استغلال المختبرات المصرح بها وكتابة التقرير|تقرير اختبار لمختبر تدريبي
+grc|الحوكمة والمخاطر|ISO 27001 وNIST CSF;سجل المخاطر والسياسات|سجل مخاطر وسياسة
+k8s|Kubernetes|Pods وDeployments;Services وIngress;Config والتخزين وRBAC;Helm وGitOps|تطبيق على Kubernetes
+iac|البنية ككود|Terraform والحالة;الوحدات والبيئات;Ansible|بيئة تُبنى بأمر واحد
+sre|الموثوقية والمراقبة|Prometheus وGrafana وOpenTelemetry;SLO والحوادث وPostmortem|لوحة SLO وتدريب حادث
+dw|نمذجة مستودعات البيانات|Star Schema وSCD;التخزين العمودي وLakehouse;dbt والاختبارات|مستودع تحليلي
+pipe|خطوط البيانات|ETL وELT;Airflow;الجودة والعقود;Monitoring وBackfill|خط بيانات مجدول
+spark|البيانات الكبيرة والتدفق|Spark DataFrames;تحسين Spark;Kafka والمعالجة الفورية|خط دفعي وفوري
+archx|ممارسة المعمارية|السمات النوعية وC4;التحديث والترحيل;الحوكمة والكلفة;المعمارية لأنظمة AI|حزمة معمارية لنظام قائم
+career|الجاهزية المهنية|الملف المهني وCV وLinkedIn والعمل الحر;مقابلات تجريبية والتسعير والعقود|ملف أعمال ومقابلتان

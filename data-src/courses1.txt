@@ -1,0 +1,219 @@
+# Introduction to Programming|مقدمة في البرمجة|النواة البرمجية|سنة 1|6|لا شيء
+D: تبني التفكير الحسابي والقدرة على تحويل مشكلة إلى خطوات قابلة للتنفيذ والاختبار.
+M: أساس لكل المسارات. HTML/CSS وPython وJavaScript ضمن أكثر أربع تقنيات استخداماً مع SQL (Stack Overflow 2026).
+O: تحليل مسألة إلى خوارزمية;كتابة برامج بالشروط والحلقات والدوال;تتبع الأخطاء وإصلاحها;بناء برنامج كامل من عدة ملفات
+W: التفكير الحسابي والخوارزمية~مخططات انسيابية;المتغيرات والأنواع~حاسبة بسيطة;الإدخال والإخراج والتعابير~محوّل وحدات;الشروط~نظام تقديرات;الحلقات~طباعة أنماط وجداول;الدوال والنطاق~إعادة هيكلة الحاسبة;القوائم والنصوص~معالجة نصوص;القواميس والمجموعات~عدّاد كلمات;الملفات والاستثناءات~قراءة CSV;التصحيح والاختبار~Debugger وassert
+P: نظام إدارة درجات يعمل من سطر الأوامر
+B: Downey, Think Python
+A: Abelson & Sussman, SICP
+U: Harvard CS50x|https://cs50.harvard.edu/x/
+
+# Python Programming|البرمجة بلغة Python|النواة البرمجية|سنة 1|6|1 (مستحسن)
+D: تنقل الطالب من كتابة نصوص برمجية إلى بناء حزم مختبرة وقابلة لإعادة الاستخدام.
+M: يستخدمها 58.0% من المطورين (Stack Overflow 2026)، وهي الأولى بين مهارات إعلانات AI الأمريكية (258,674 إعلاناً في 2025).
+O: كتابة كود Python وفق PEP 8;تصميم وحدات وحزم;التعامل مع الملفات وواجهات API;اختبار الكود باستخدام pytest
+W: البيئة وuv وvenv~تهيئة مشروع;هياكل البيانات المدمجة~تحليل سجل;الدوال وComprehensions~تحويل بيانات;الوحدات والحزم~بناء حزمة;الاستثناءات والملفات~مدقق CSV;البرمجة الكائنية~نموذج مكتبة;Iterators وGenerators~معالجة ملف كبير;Decorators وType Hints~قياس زمن ودقة أنواع;HTTP وJSON~عميل API;SQLite~تخزين نتائج;pytest~اختبارات وتغطية;مقدمة asyncio~جلب متوازٍ
+P: أداة تجمع بيانات من API عام وتخزنها وتصدر تقريراً
+B: Guttag, Introduction to Computation and Programming Using Python
+A: Ramalho, Fluent Python
+U: MIT 6.100L|https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/
+
+# Java Programming|البرمجة بلغة Java|النواة البرمجية|سنة 1|6|1
+D: تدرّس البرمجة ذات الأنواع الصارمة وبناء تطبيقات مؤسسية قابلة للصيانة.
+M: يستخدمها 27.6% من المطورين (2026)، وذكرها تقييم SPARK للسوق الفلسطيني ضمن المهارات المطلوبة.
+O: بناء تطبيقات Java متعددة الحزم;استخدام Collections وGenerics;كتابة كود متزامن آمن;اختبار التطبيق باستخدام JUnit
+W: JVM والأنواع~أول برنامج;التحكم والمصفوفات~بحث وفرز;الأصناف والكائنات~حساب بنكي;الوراثة والواجهات~أشكال هندسية;الاستثناءات~تحقق من مدخلات;Generics~حاوية عامة;Collections~فهرس كلمات;Lambdas وStreams~تحليل مبيعات;الملفات وNIO~قارئ سجلات;Threads وExecutors~مهام متزامنة;JDBC~عمليات CRUD;Maven وJUnit~بناء واختبار
+P: نظام إدارة مخزون مع قاعدة بيانات واختبارات
+B: Liang, Introduction to Java Programming and Data Structures
+A: Bloch, Effective Java
+U: Helsinki Java MOOC|https://java-programming.mooc.fi/
+
+# C Programming|البرمجة بلغة C|النواة البرمجية|سنة 1-2|6|1
+D: تكشف الذاكرة والمؤشرات وما يحدث تحت اللغات عالية المستوى.
+M: مادة تأسيس لنظم التشغيل والأنظمة المدمجة، وليست بوابة توظيف مستقلة.
+O: إدارة الذاكرة يدوياً;استخدام المؤشرات والبنى;التعامل مع الملفات الثنائية;اكتشاف أخطاء الذاكرة
+W: الترجمة والربط~gcc وMake;الأنواع والعمليات~عمليات البت;التحكم والدوال~مكتبة رياضية;المصفوفات والنصوص~دوال string;المؤشرات~تبديل وبحث;الذاكرة الديناميكية~مصفوفة متنامية;البنى~قائمة موصولة;الملفات~نسخة من cp;المعالج المسبق والوحدات~مشروع متعدد الملفات;أخطاء الذاكرة~Valgrind وASan
+P: مخزن مفاتيح وقيم يحفظ بياناته في ملف
+B: Kernighan & Ritchie, The C Programming Language
+A: King, C Programming: A Modern Approach
+U: Harvard CS50x|https://cs50.harvard.edu/x/
+
+# C++ Programming|البرمجة بلغة C++|النواة البرمجية|سنة 2|6|1 أو 4
+D: تجمع التحكم منخفض المستوى والتجريد عالي المستوى للبرمجيات عالية الأداء.
+M: يستخدمها 24.3% من المطورين (2026)، ووردت ضمن مهارات مسار المطور في تقرير ETF.
+O: استخدام RAII والمؤشرات الذكية;تصميم أصناف وقوالب;توظيف STL بكفاءة;قياس الأداء وتحسينه
+W: البناء وCMake~مشروع أولي;الأنواع والمراجع~تمرير المعاملات;الدوال والتحميل~مكتبة متجهات;الأصناف~صنف Matrix;RAII~مغلف ملف;النسخ والنقل~Rule of Five;الوراثة~معالجات متعددة الأشكال;القوالب~حاوية عامة;STL~مسائل خوارزمية;المؤشرات الذكية~شجرة آمنة;التزامن~Thread pool;الاختبار والقياس~GoogleTest وProfiler
+P: محرك بحث نصي سريع متعدد الخيوط
+B: Stroustrup, Programming: Principles and Practice Using C++
+A: Meyers, Effective Modern C++
+U: LearnCpp|https://www.learncpp.com/
+
+# Object-Oriented Programming|البرمجة الكائنية|النواة البرمجية|سنة 1-2|5|1
+D: تدرّس تنظيم الأنظمة في مكونات واضحة المسؤولية وسهلة التغيير.
+M: أساس لمساري Backend وMobile ولأطر .NET وSpring.
+O: نمذجة مجال بالكائنات;تطبيق مبادئ SOLID;اختيار نمط تصميم وتبريره;إعادة هيكلة كود قائم
+W: التجريد والتغليف~نمذجة مكتبة;العلاقات والتركيب~UML;الوراثة وبدائلها~مقارنة تصميمين;تعدد الأشكال~إزالة الشروط;SRP وOCP~إعادة هيكلة;LSP وISP~تصحيح تسلسل أصناف;DIP~حقن التبعيات;أنماط الإنشاء~Factory;الأنماط البنيوية~Adapter وDecorator;الأنماط السلوكية~Strategy وObserver
+P: محرك قواعد تسعير قابل للتوسعة
+B: Horstmann, Object-Oriented Design & Patterns
+A: Gamma et al., Design Patterns
+U: MIT 6.102|https://web.mit.edu/6.102/www/
+
+# Data Structures|هياكل البيانات|الخوارزميات والرياضيات|سنة 2|6|6
+D: تعلّم تنظيم البيانات في الذاكرة لاختيار البنية الأكفأ لكل عملية.
+M: أساس مقابلات التوظيف البرمجية. ورد Computer Science في 297 إعلاناً ضمن عينة ETF.
+O: تحليل كلفة العمليات;تنفيذ الهياكل الأساسية;اختيار هيكل مناسب وتبريره;قياس الأداء تجريبياً
+W: التعقيد وBig-O~قياس زمن;Dynamic Arrays~تنفيذ;القوائم الموصولة~تنفيذ واختبار;Stack~موازنة أقواس;Queue وDeque~محاكاة طابور;Hash Tables~معالجة تصادم;الأشجار~طرق التجوال;BST وAVL~تنفيذ التوازن;Heap~أولوية المهام;Trie~إكمال تلقائي;تمثيل الرسوم~BFS وDFS;Union-Find~مكونات الاتصال
+P: محرك إكمال تلقائي مع تقرير أداء
+B: Cormen et al., Introduction to Algorithms
+A: Sedgewick & Wayne, Algorithms
+U: Princeton Algorithms|https://www.coursera.org/learn/algorithms-part1
+
+# Algorithms|الخوارزميات|الخوارزميات والرياضيات|سنة 2-3|6|7، 16
+D: تدرّس تصميم الحلول وإثبات صحتها وتحليل كلفتها.
+M: أساس مقابلات الشركات العالمية وأعمال الأداء.
+O: حل علاقات التكرار;اختيار تقنية التصميم;إثبات صحة خوارزمية;تمييز المسائل الصعبة
+W: التحليل والإثبات~إثبات بالاستقراء;Recurrences~Master Theorem;Divide and Conquer~Merge Sort;الفرز العشوائي~QuickSort;الفرز الخطي~Radix;التجوال~Topological Sort;أقصر المسارات~Dijkstra;Bellman-Ford~كشف دورة سالبة;MST~Kruskal;Greedy~جدولة;Dynamic Programming~حقيبة وLCS;NP-Completeness~اختزال
+P: مخطط مسارات على خريطة حقيقية
+B: Cormen et al., Introduction to Algorithms
+A: Skiena, The Algorithm Design Manual
+U: MIT 6.006|https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/
+
+# Data Structures and Algorithms|هياكل البيانات والخوارزميات|الخوارزميات والرياضيات|سنة 2|8|6، 16
+D: نسخة مكثفة تدمج المادتين 7 و8 لمن يستهدف التوظيف.
+M: المادة المشتركة لمسارات التطوير الأربعة والذكاء الاصطناعي.
+O: تحليل التعقيد;تنفيذ الهياكل واستخدامها;تطبيق تقنيات التصميم الثلاث;حل مسائل بمستوى المقابلات
+W: Big-O~قياس;Arrays وTwo Pointers~مسائل;Lists وStacks وQueues~تنفيذ;Recursion وRecurrences~تتبع;الفرز~تنفيذ ومقارنة;Hashing~مسائل عد;BST وAVL~تنفيذ;Heaps وTries~مسائل Top-K;BFS وDFS~متاهة;أقصر المسارات~Dijkstra;MST وUnion-Find~شبكة;Greedy~فترات;Dynamic Programming 1~مسائل أحادية;Dynamic Programming 2 وNP~مسائل ثنائية
+P: نظام توجيه طرق مع تقرير تعقيد
+B: Cormen et al., Introduction to Algorithms
+A: Skiena, The Algorithm Design Manual
+U: MIT 6.006|https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/
+
+# Advanced Algorithms|الخوارزميات المتقدمة|الخوارزميات والرياضيات|سنة 4|5|8
+D: تعالج مسائل لا تكفيها التقنيات الكلاسيكية من حيث الحجم أو الصعوبة.
+M: تخصصية للبحث والأدوار المتقدمة.
+O: تطبيق التحليل الإطفائي;نمذجة مسائل كتدفق;تصميم خوارزمية تقريب;استخدام العشوائية
+W: Amortized Analysis~تحليل;Splay Trees~تنفيذ;Max Flow~Edmonds-Karp;Matching~تعيين مهام;Linear Programming~Solver;Randomization~Min-Cut;Universal Hashing~تجربة;Approximation~Vertex Cover;Streaming~Count-Min Sketch;String Algorithms~Suffix Array
+P: تنفيذ خوارزمية من ورقة علمية وتقييمها
+B: Kleinberg & Tardos, Algorithm Design
+A: Williamson & Shmoys, The Design of Approximation Algorithms
+U: MIT 6.046J|https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/
+
+# Database Systems|نظم قواعد البيانات|البيانات|سنة 2-3|5|7
+D: تشرح تصميم قواعد البيانات وكيف تنفذ المحركات الاستعلامات وتحمي البيانات.
+M: يستخدم PostgreSQL 57.9% من المجيبين على سؤال قواعد البيانات (2026).
+O: تصميم مخطط مطبّع;قراءة خطط التنفيذ;تفسير مستويات العزل;شرح التخزين والاسترجاع
+W: النموذج العلائقي~جبر علائقي;SQL~استعلامات;ER~تصميم;Normalization~تحليل تبعيات;التخزين والصفحات~فحص صفحات;Buffer Pool~LRU;B+Tree~قياس فهارس;Hash Index~مقارنة;خوارزميات Join~تجارب;التحسين~EXPLAIN;Transactions~تجارب عزل;WAL والاسترجاع~محاكاة انهيار
+P: محرك تخزين مصغر مع فهرس
+B: Silberschatz et al., Database System Concepts
+A: Petrov, Database Internals
+U: CMU 15-445|https://15445.courses.cs.cmu.edu/
+
+# SQL and Database Design|SQL وتصميم قواعد البيانات|البيانات|سنة 1-2|6|لا شيء
+D: مادة تطبيقية لبناء قواعد بيانات والإجابة عن أسئلة العمل منها.
+M: يستخدم SQL 58.4% من المطورين (2026)، وورد في 243 إعلاناً ضمن عينة ETF، أعلى من Python.
+O: كتابة استعلامات مركبة;تصميم مخطط من متطلبات;تحسين استعلام بطيء;ضبط الصلاحيات والنسخ
+W: الجداول والمفاتيح~إنشاء قاعدة;SELECT والتصفية~تمارين;التجميع~تقرير مبيعات;Joins~بيانات متعددة;Subqueries وCTE~استعلامات مركبة;Window Functions~ترتيب ونمو;ER والتطبيع~تصميم عيادة;الفهارس~EXPLAIN;المعاملات والصلاحيات~أدوار;النسخ والاستعادة~تجربة استعادة
+P: قاعدة بيانات متجر مع 15 استعلاماً تحليلياً
+B: Beaulieu, Learning SQL
+A: Karwin, SQL Antipatterns
+U: PostgreSQL Tutorial|https://www.postgresql.org/docs/current/tutorial.html
+
+# Operating Systems|نظم التشغيل|الأنظمة والشبكات|سنة 3|5|4، 15
+D: تشرح إدارة المعالج والذاكرة والتخزين التي تعتمد عليها كل البرامج.
+M: أساس DevOps والأمن والأداء. يستخدم Bash 51.3% من المطورين (2026).
+O: تفسير العمليات والجدولة;كتابة كود متزامن صحيح;شرح الذاكرة الافتراضية;تحليل نظام الملفات
+W: النواة والنداءات~strace;العمليات~fork وexec;الجدولة~محاكاة;الخيوط~pthreads;الأقفال~سباق بيانات;Semaphores~منتج ومستهلك;Deadlock~كشف ومنع;Paging~حساب عناوين;Virtual Memory~استبدال صفحات;الإدخال والإخراج~قياس;أنظمة الملفات~inode;الحاويات~namespaces
+P: Shell مصغر يدعم الأنابيب
+B: Arpaci-Dusseau, Operating Systems: Three Easy Pieces
+A: Silberschatz, Operating System Concepts
+U: MIT 6.1810|https://pdos.csail.mit.edu/6.1810/
+
+# Computer Networks|شبكات الحاسوب|الأنظمة والشبكات|سنة 3|5|1
+D: تشرح انتقال البيانات عبر الإنترنت وتشخيص أعطاله وتأمينه.
+M: أساس السحابة والأمن. يتوقع BLS نمو معماريي الشبكات 7.7% وتراجع مديري الشبكات 4.1%.
+O: شرح طبقات الشبكة;تصميم عناوين IP;تحليل الحزم;برمجة تطبيق شبكي
+W: الطبقات والأداء~ping وtraceroute;HTTP~curl;DNS~dig;Sockets~خادم TCP;UDP والنقل الموثوق~بروتوكول بسيط;TCP~Wireshark;IP وSubnetting~تصميم;DHCP وNAT~Packet Tracer;التوجيه~OSPF;Ethernet وVLAN~مبدلات;اللاسلكي~تخطيط;TLS والجدران~فحص شهادة
+P: شبكة مؤسسة بفرعين موثقة ومؤمنة
+B: Kurose & Ross, Computer Networking: A Top-Down Approach
+A: Peterson & Davie, Computer Networks: A Systems Approach
+U: Stanford CS144|https://cs144.github.io/
+
+# Computer Organization and Architecture|تنظيم ومعمارية الحاسوب|الأنظمة والشبكات|سنة 2|5|4
+D: تربط الكود بالعتاد الذي ينفذه وتفسر سبب السرعة والبطء.
+M: أساس الأنظمة المدمجة والأداء.
+O: تمثيل البيانات;قراءة Assembly;تفسير Pipeline وCache;تحسين كود حسب الذاكرة
+W: الأعداد الصحيحة~Data Lab;الفاصلة العائمة~تجارب دقة;البوابات~بناء ALU;Assembly~قراءة كود;الإجراءات والمكدس~gdb;المعالج~مسار البيانات;Pipeline~تحليل مخاطر;هرم الذاكرة~قياس;Cache~محاكي;التحسين~Profiler;الربط~فحص ELF;تعدد الأنوية~False Sharing
+P: محاكي معالج وذاكرة مؤقتة
+B: Bryant & O'Hallaron, Computer Systems: A Programmer's Perspective
+A: Patterson & Hennessy, Computer Organization and Design
+U: CMU 15-213|https://www.cs.cmu.edu/~213/
+
+# Discrete Mathematics|الرياضيات المتقطعة|الخوارزميات والرياضيات|سنة 1|4|لا شيء
+D: لغة الإثبات والمنطق التي تقوم عليها الخوارزميات والتشفير.
+M: أساس علمي لا يُطلب بالاسم في الإعلانات.
+O: كتابة إثبات;استخدام المنطق والمجموعات;حل مسائل العد;نمذجة مسائل بالرسوم
+W: المنطق~جداول صدق;المحددات~ترجمة عبارات;طرق الإثبات~تمارين;المجموعات~تمارين Python;العلاقات والدوال~تصنيف;الاستقراء~إثباتات;نظرية الأعداد~إقليدس;الحساب النمطي~RSA مصغر;العد~تباديل;الاحتمال المتقطع~محاكاة;الرسوم~تلوين;الأشجار~تمارين
+P: ملف إثباتات وتطبيق تشفير تعليمي
+B: Rosen, Discrete Mathematics and Its Applications
+A: Lehman et al., Mathematics for Computer Science
+U: MIT 6.042J|https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/
+
+# Linear Algebra|الجبر الخطي|الخوارزميات والرياضيات|سنة 1-2|4|رياضيات ثانوية
+D: رياضيات المتجهات والمصفوفات التي تقوم عليها نماذج التعلم الآلي.
+M: أساس مسارات AI وعلم البيانات، ويتوقع BLS نمو علماء البيانات 34.6%.
+O: حل أنظمة خطية;تفسير الفضاءات;حساب القيم الذاتية;تطبيق SVD
+W: المتجهات~NumPy;الأنظمة~حذف غاوس;ضرب المصفوفات~تحويل صور;المعكوس وLU~حل;الفضاءات~أمثلة;الأساس والبعد~رتبة;التعامد~إسقاط;Least Squares~انحدار;المحددات~تمارين;القيم الذاتية~PageRank;SVD~ضغط صورة;PCA~تقليص أبعاد
+P: محرك توصية بتحليل المصفوفات
+B: Strang, Introduction to Linear Algebra
+A: Axler, Linear Algebra Done Right
+U: MIT 18.06|https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+
+# Probability and Statistics|الاحتمالات والإحصاء|الخوارزميات والرياضيات|سنة 2|4|رياضيات ثانوية
+D: أدوات اتخاذ قرار صحيح من بيانات غير مؤكدة.
+M: ورد Data Analysis في 222 إعلاناً ضمن عينة ETF، والإحصاء مهارة أساسية في مسارها.
+O: حساب الاحتمالات;اختيار التوزيع;بناء فترات ثقة;تفسير اختبار فرضية
+W: الإحصاء الوصفي~وصف بيانات;الاحتمال~محاكاة;Bayes~مصنف;المتغيرات~توقع;التوزيعات المتقطعة~نمذجة;المتصلة~رسم;المشتركة~ارتباط;النهاية المركزية~محاكاة;التقدير~فترات ثقة;اختبار الفرضيات~t-test;A/B Testing~تجربة;الانحدار~نموذج
+P: تحليل تجربة A/B وكتابة قرار
+B: Blitzstein & Hwang, Introduction to Probability
+A: Wasserman, All of Statistics
+U: Harvard Stat 110|https://projects.iq.harvard.edu/stat110
+
+# Software Engineering|هندسة البرمجيات|هندسة البرمجيات|سنة 3|5|6، 12
+D: تنقل الطالب من كتابة الكود إلى تسليم منتج مع فريق.
+M: ورد Agile في 229 إعلاناً ضمن عينة ETF، وSoftware developer في 929.
+O: تحويل الاحتياج إلى متطلبات;العمل ضمن Sprint;مراجعة الكود;تسليم إصدار عبر CI
+W: دورة الحياة~اختيار نموذج;المتطلبات~مقابلة عميل;User Stories~Backlog;Scrum~Sprint Planning;Git~Pull Requests;التصميم~C4;المعمارية~ADR;جودة الكود~مراجعة;الاختبار~خطة;CI/CD~خط بناء;الصيانة~دين تقني;التطوير بمساعدة AI~مراجعة كود مولد
+P: منتج جماعي بثلاث دورات Sprint لعميل حقيقي
+B: Sommerville, Software Engineering
+A: Fowler, Refactoring
+U: Berkeley SaaS Book|https://www.saasbook.info/
+
+# Software Testing|اختبار البرمجيات|هندسة البرمجيات|سنة 3|5|19 (مستحسن)
+D: تدرّس إثبات الجودة بأدلة واكتشاف العيوب مبكراً.
+M: نحو 10,700 فرصة سنوية لمحللي الجودة في أمريكا بنمو 5.7% (BLS).
+O: تصميم حالات اختبار;أتمتة الاختبارات;قياس التغطية;كتابة بلاغ عيب
+W: مبادئ الجودة~تحليل عيوب;التقسيم والحدود~حالات;جداول القرار~تمارين;التغطية~قياس;Unit Testing~إطار اختبار;Test Doubles~Mocking;Integration~قاعدة اختبار;API Testing~Postman;E2E~Playwright;الأداء والاختبار في CI~k6
+P: منظومة اختبارات آلية لتطبيق قائم
+B: Ammann & Offutt, Introduction to Software Testing
+A: Aniche, Effective Software Testing
+U: Playwright Docs|https://playwright.dev/
+
+# Web Development Fundamentals|أساسيات تطوير الويب|هندسة البرمجيات|سنة 1-2|6|1
+D: بوابة بناء تطبيقات الويب من المتصفح إلى الخادم.
+M: يستخدم HTML/CSS 58.2% وJavaScript 62.0% من المطورين (2026).
+O: بناء واجهة متجاوبة RTL;برمجة التفاعل;ربط API;نشر موقع
+W: الويب وHTTP~DevTools;HTML~سيرة ذاتية;Accessibility~تدقيق;CSS~تنسيق;Flexbox وGrid~تخطيط;RTL والتجاوب~موقع عربي;JavaScript~تفاعل;DOM والنماذج~تحقق;Fetch~عرض API;الخادم والنشر~خادم منشور
+P: موقع عربي تفاعلي منشور لجهة محلية
+B: MDN, Learn Web Development
+A: Haverbeke, Eloquent JavaScript
+U: Harvard CS50W|https://cs50.harvard.edu/web/
+
+# Distributed Systems|الأنظمة الموزعة|الأنظمة والشبكات|سنة 4|5|13، 14
+D: تشرح بناء خدمات تستمر بالعمل رغم أعطال الأجهزة والشبكة.
+M: ارتفع ذكر Scalability في إعلانات AI الأمريكية 733% مقارنة بالفترة 2013-2015.
+O: تحليل نماذج الفشل;شرح الإجماع;تصميم نسخ وتقسيم;اختبار تحمل الأعطال
+W: النماذج~حالات فشل;RPC~gRPC;الزمن~Lamport;MapReduce~عد كلمات;النسخ~قائد وتابع;Consistency~تجارب;Raft: الانتخاب~تنفيذ;Raft: السجل~تنفيذ;Sharding~Consistent Hashing;المعاملات الموزعة~Saga;Kafka~حدث;Observability~Tracing
+P: مخزن مفاتيح وقيم موزع
+B: van Steen & Tanenbaum, Distributed Systems
+A: Kleppmann, Designing Data-Intensive Applications
+U: MIT 6.5840|https://pdos.csail.mit.edu/6.824/

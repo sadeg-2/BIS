@@ -1,0 +1,114 @@
+/* ---------- fixed, responsive site header ---------- */
+:root { --hdr-h: 72px; }
+.main { padding-top: calc(var(--hdr-h) + 16px); }
+
+.site-header {
+  position: fixed; top: 0; inset-inline: 0; z-index: 100;
+  background: color-mix(in srgb, var(--bg2) 92%, transparent);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border-bottom: 1px solid var(--line);
+  transition: box-shadow .2s, background .2s;
+}
+.site-header::after { content: ''; position: absolute; inset-inline: 0; bottom: -1px; height: 2px; background: linear-gradient(90deg, var(--brand2), var(--brand)); opacity: .9; }
+.site-header.scrolled { box-shadow: 0 6px 24px rgba(11, 60, 100, .10); background: color-mix(in srgb, var(--bg2) 97%, transparent); }
+
+.hdr {
+  max-width: 1280px; height: var(--hdr-h); margin: 0 auto; padding: 0 24px;
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 20px;
+}
+
+.hdr-brand { display: flex; align-items: center; gap: 12px; color: var(--ink); min-width: 0; }
+.hdr-brand:hover { text-decoration: none; }
+.hdr-brand img { width: 48px; height: 48px; object-fit: contain; flex: none; background: #fff; border-radius: 12px; padding: 2px; box-shadow: 0 1px 6px rgba(0, 0, 0, .08); }
+.hdr-brand span { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.hdr-brand b { font-size: 17px; font-weight: 800; white-space: nowrap; }
+.hdr-brand small { font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.hdr-nav { display: flex; justify-content: center; gap: 2px; min-width: 0; }
+.hdr-nav a {
+  position: relative; padding: 8px 12px; border-radius: 10px; color: var(--muted);
+  font-size: 15px; font-weight: 600; white-space: nowrap; transition: color .15s, background .15s;
+}
+.hdr-nav a:hover { color: var(--ink); background: var(--soft); text-decoration: none; }
+.hdr-nav a.active { color: var(--brand); }
+.hdr-nav a.active::after { content: ''; position: absolute; inset-inline: 12px; bottom: 2px; height: 3px; border-radius: 3px; background: linear-gradient(90deg, var(--brand2), var(--brand)); }
+
+.hdr-actions { display: flex; align-items: center; gap: 8px; }
+.hdr-icon {
+  width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--card);
+  color: var(--ink); display: grid; place-items: center; cursor: pointer; font-size: 17px; transition: background .15s;
+}
+.hdr-icon:hover { background: var(--soft); }
+.hdr-cta {
+  display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 18px; border-radius: 12px;
+  color: #fff; font-weight: 700; font-size: 15px; white-space: nowrap;
+  background: linear-gradient(135deg, var(--brand), var(--brand2)); box-shadow: 0 4px 14px color-mix(in srgb, var(--brand) 30%, transparent);
+}
+.hdr-cta:hover { text-decoration: none; filter: brightness(1.06); }
+
+.hdr-burger { display: none; gap: 4px; padding: 0 10px; align-content: center; }
+.hdr-burger i { display: block; width: 18px; height: 2px; border-radius: 2px; background: currentColor; transition: transform .2s, opacity .2s; }
+.menu-open .hdr-burger i:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.menu-open .hdr-burger i:nth-child(2) { opacity: 0; }
+.menu-open .hdr-burger i:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+.hdr-drawer { display: none; }
+.hdr-backdrop { position: fixed; inset: 0; z-index: 90; background: rgba(10, 20, 35, .35); }
+
+/* medium screens: hide the subtitle and tighten links */
+@media (max-width: 1320px) {
+  .hdr { gap: 14px; padding: 0 18px; }
+  .hdr-nav a { padding: 8px 9px; font-size: 14.5px; }
+  .hdr-brand small { display: none; }
+}
+
+/* tablets and phones: links move into a drop-down panel */
+@media (max-width: 1180px) {
+  .hdr { grid-template-columns: 1fr auto; }
+  .hdr-nav { display: none; }
+  .hdr-burger { display: grid; }
+  .hdr-brand small { display: block; }
+  .hdr-drawer {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px;
+    max-height: 0; overflow: hidden; padding: 0 18px; transition: max-height .25s ease, padding .25s ease;
+    border-top: 1px solid transparent;
+  }
+  .menu-open .hdr-drawer { max-height: calc(100dvh - var(--hdr-h)); overflow-y: auto; padding: 12px 18px 16px; border-top-color: var(--line); }
+  .hdr-drawer a { padding: 12px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-weight: 600; }
+  .hdr-drawer a:hover { text-decoration: none; border-color: var(--brand); }
+  .hdr-drawer a.active { border-color: var(--brand); color: var(--brand); background: color-mix(in srgb, var(--brand) 8%, var(--card)); }
+}
+
+@media (max-width: 640px) {
+  :root { --hdr-h: 62px; }
+  .hdr { padding: 0 14px; gap: 10px; }
+  .hdr-brand img { width: 40px; height: 40px; }
+  .hdr-brand b { font-size: 15.5px; }
+  .hdr-brand small { font-size: 11.5px; }
+  .hdr-cta { width: 40px; padding: 0; justify-content: center; }
+  .hdr-cta-label { display: none; }
+  .hdr-drawer { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  .hdr-brand small { display: none; }
+}
+
+/* anchors and section starts should not hide under the fixed header */
+html { scroll-padding-top: calc(var(--hdr-h) + 12px); }
+
+/* at the top of the page the header blends into the hero; once scrolled it turns solid with a light blur */
+.site-header {
+  background: transparent; border-bottom-color: transparent;
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+  transition: background .25s, box-shadow .25s, border-color .25s, backdrop-filter .25s;
+}
+.site-header::after { opacity: 0; transition: opacity .25s; }
+.site-header.scrolled, .site-header.menu-open {
+  background: color-mix(in srgb, var(--bg2) 90%, transparent);
+  backdrop-filter: saturate(150%) blur(10px); -webkit-backdrop-filter: saturate(150%) blur(10px);
+  border-bottom-color: var(--line);
+  box-shadow: 0 6px 24px rgba(11, 60, 100, .08);
+}
+.site-header.scrolled::after, .site-header.menu-open::after { opacity: .9; }
+.site-header:not(.scrolled) .hdr-icon { background: color-mix(in srgb, var(--card) 70%, transparent); }

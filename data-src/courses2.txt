@@ -1,0 +1,219 @@
+# Parallel Computing|الحوسبة المتوازية|الأنظمة والشبكات|سنة 4|5|13، 15
+D: استغلال الأنوية والمعالجات الرسومية لتسريع الحسابات.
+M: تخصصية، وترتبط ببنية تدريب النماذج.
+O: قياس التسارع;البرمجة بالذاكرة المشتركة;البرمجة بتمرير الرسائل;استخدام GPU
+W: Amdahl~قياس;SIMD~متجهات;Threads~تكامل عددي;OpenMP~حلقات;الجدولة~موازنة;Locality~Cache;MPI~رسائل;GPU~CUDA;تدريب موزع~تجربة;التحليل~Profiler
+P: تسريع تطبيق حسابي مع تقرير
+B: Pacheco, An Introduction to Parallel Programming
+A: Herlihy & Shavit, The Art of Multiprocessor Programming
+U: CMU 15-418|https://www.cs.cmu.edu/~418/
+
+# Compiler Design|تصميم المترجمات|الأنظمة والشبكات|سنة 4|5|8، 26
+D: تشرح تحويل اللغة البرمجية إلى تنفيذ.
+M: أساس علمي تخصصي دون طلب محلي مقاس.
+O: بناء محلل لفظي ونحوي;فحص الأنواع;توليد كود;تطبيق تحسينات
+W: المراحل~لغة صغيرة;التعابير النظامية~Automata;Scanner~تنفيذ;القواعد~كتابة Grammar;Parser~نزول تعاودي;AST~طباعة;النطاقات~جدول رموز;الأنواع~مدقق;IR~توليد;Bytecode~آلة افتراضية;التحسين~طي ثوابت;Garbage Collection~Mark-Sweep
+P: مترجم كامل للغة صغيرة
+B: Aho et al., Compilers
+A: Cooper & Torczon, Engineering a Compiler
+U: Crafting Interpreters|https://craftinginterpreters.com/
+
+# Computer Graphics|رسوميات الحاسوب|التخصصات|سنة 3-4|5|5، 17
+D: رياضيات وبرمجة الصورة ثلاثية الأبعاد.
+M: تخصصية. شكّل مطورو الألعاب والرسوميات 0.9% من عينة Stack Overflow 2025.
+O: تطبيق التحويلات;برمجة Shaders;بناء الإضاءة;تنفيذ Ray Tracing
+W: الصورة~PPM;المتجهات~مكتبة;التحويلات~تدوير;الكاميرا~إسقاط;Rasterization~مثلث;Shaders~WebGL;الإضاءة~Phong;Textures~خامات;Ray Tracing~كرات;الحركة~Interpolation
+P: عارض مشاهد ثلاثي الأبعاد
+B: Marschner & Shirley, Fundamentals of Computer Graphics
+A: Pharr et al., Physically Based Rendering
+U: Ray Tracing in One Weekend|https://raytracing.github.io/
+
+# Theory of Computation|نظرية الحوسبة|الخوارزميات والرياضيات|سنة 3|4|16
+D: تحدد ما يمكن حسابه وما يستحيل.
+M: أساس علمي لا يُطلب بالاسم.
+O: تصميم Automata;تصنيف اللغات;إثبات عدم القابلية للحسم;إجراء اختزال
+W: اللغات~تمارين;DFA~محاكاة;NFA~تحويل;Regular Expressions~مكافأة;Pumping Lemma~إثبات;CFG~قواعد;PDA~تصميم;Turing Machines~محاك;Decidability~تصنيف;Halting~إثبات;P وNP~اختزال;التعقيد المكاني~تمارين
+P: محاكي آلات مع ملف إثباتات
+B: Sipser, Introduction to the Theory of Computation
+A: Arora & Barak, Computational Complexity
+U: MIT 18.404J|https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/
+
+# Information Security|أمن المعلومات|الأمن|سنة 3|5|12، 14
+D: التفكير بالتهديدات وبناء دفاعات متناسبة مع الخطر.
+M: يتوقع BLS نمو محللي أمن المعلومات 21.0% ونحو 14,100 فرصة سنوية.
+O: نمذجة التهديدات;تطبيق ضوابط الوصول;اكتشاف ثغرات الويب;إدارة حادث
+W: المبادئ~تحليل حادث;Threat Modeling~STRIDE;التشفير التطبيقي~تجزئة;المصادقة~MFA;التحكم بالوصول~RBAC;أمن النظام~تقسية;أمن الشبكة~جدار;OWASP~Juice Shop;سلسلة التوريد~فحص تبعيات;أمن AI~Prompt Injection;الكشف~سجلات;الاستجابة والحوكمة~تقرير
+P: تقييم أمني مصرح به لتطبيق تدريبي
+B: Stallings & Brown, Computer Security: Principles and Practice
+A: Anderson, Security Engineering
+U: PortSwigger Academy|https://portswigger.net/web-security
+
+# Cryptography|التشفير|الأمن|سنة 4|4|16، 18
+D: الأساس الرياضي لسرية البيانات وسلامتها.
+M: داعمة لمسار الأمن السيبراني.
+O: اختيار بدائية تشفير;تفسير نماذج الأمان;استخدام مكتبة بأمان;كشف أخطاء الاستخدام
+W: النماذج~تشفير تاريخي;العشوائية~تجارب;AES~أنماط;MAC~HMAC;Hashing~تصادم;AEAD~تطبيق;Diffie-Hellman~تبادل;RSA~تنفيذ تعليمي;التواقيع~تحقق;TLS وما بعد الكم~تحليل
+P: أداة تبادل ملفات مشفرة
+B: Boneh & Shoup, A Graduate Course in Applied Cryptography
+A: Katz & Lindell, Introduction to Modern Cryptography
+U: Stanford Cryptography I|https://www.coursera.org/learn/crypto
+
+# Artificial Intelligence|الذكاء الاصطناعي|الذكاء الاصطناعي|سنة 3|5|8، 18
+D: المبادئ العامة لبناء أنظمة تبحث وتستنتج وتقرر.
+M: تتطلب 2.87% من إعلانات الإمارات مهارات AI في 2025 (AI Index 2026).
+O: صياغة مسألة بحث;تمثيل عدم اليقين;تصميم وكيل قرار;تقييم المخاطر
+W: الوكلاء~بيئة;البحث~BFS وUCS;A*~مخطط;البحث المحلي~تحسين;CSP~جدولة;الألعاب~Minimax;المنطق~استدلال;Bayesian Networks~نموذج;HMM~تتبع;MDP~Value Iteration;Reinforcement Learning~Q-learning;الوكلاء الحديثة والأخلاقيات~تقييم
+P: وكيل ينافس في بيئة لعبة
+B: Russell & Norvig, Artificial Intelligence: A Modern Approach
+A: Sutton & Barto, Reinforcement Learning
+U: Berkeley CS188|https://inst.eecs.berkeley.edu/~cs188/
+
+# Machine Learning|تعلم الآلة|الذكاء الاصطناعي|سنة 3-4|6|2، 17، 18
+D: بناء نماذج تتعلم من البيانات وتقييمها بصدق.
+M: يتوقع BLS نمو علماء البيانات 34.6%، وML ضمن أكثر مجموعات مهارات AI طلباً.
+O: تجهيز البيانات;اختيار نموذج;تقييم بلا تسريب;نشر نموذج
+W: الإطار العام~Baseline;الانحدار~تنفيذ;Regularization~تجارب;Logistic Regression~تصنيف;المقاييس~مصفوفة التباس;Cross Validation~Pipelines;الأشجار~تفسير;Boosting~XGBoost;Clustering~تقسيم عملاء;PCA~أبعاد;العدالة والتفسير~SHAP;النشر~API
+P: نموذج تنبؤ منشور ببيانات محلية
+B: James et al., An Introduction to Statistical Learning
+A: Murphy, Probabilistic Machine Learning
+U: Stanford CS229|https://cs229.stanford.edu/
+
+# Deep Learning|التعلم العميق|الذكاء الاصطناعي|سنة 4|6|30
+D: الشبكات العصبية من الأساس إلى النماذج التوليدية.
+M: أساس مهارات النماذج اللغوية: 38,526 إعلاناً أمريكياً في 2025 بنمو 102%.
+O: تنفيذ Backpropagation;تدريب بـPyTorch;استخدام Transfer Learning;تشخيص التدريب
+W: Perceptron~تنفيذ;Backpropagation~من الصفر;PyTorch~Autograd;Optimization~مقارنة;Regularization~Dropout;CNN~صور;Transfer Learning~ضبط;RNN~تسلسل;Attention~تنفيذ;Transformers~GPT مصغر;Generative Models~Diffusion;الكفاءة والنشر~Quantization
+P: نموذج عميق منشور مع Model Card
+B: Zhang et al., Dive into Deep Learning
+A: Goodfellow et al., Deep Learning
+U: Dive into Deep Learning|https://d2l.ai/
+
+# Natural Language Processing|معالجة اللغات الطبيعية|الذكاء الاصطناعي|سنة 4|5|31
+D: تمكين الحاسوب من معالجة النصوص، مع تركيز على العربية.
+M: أساس RAG، الذي نما ذكره 337% إلى 12,609 إعلانات أمريكية في 2025.
+O: معالجة نص عربي;بناء Embeddings;ضبط Transformer;تقييم نظام لغوي
+W: النص العربي~تنظيف;Tokenization~مقارنة;التصنيف~TF-IDF;Word Vectors~تشابه;Transformers~Hugging Face;Fine-tuning~تدريب;NER~استخراج;الأسئلة والأجوبة~تطبيق;RAG~فهرس;التقييم والتحيز~مجموعة اختبار
+P: مساعد أسئلة لوثائق عربية مع تقييم
+B: Jurafsky & Martin, Speech and Language Processing
+A: Tunstall et al., Natural Language Processing with Transformers
+U: Stanford CS224N|https://web.stanford.edu/class/cs224n/
+
+# Cloud Computing Fundamentals|أساسيات الحوسبة السحابية|الأنظمة والشبكات|سنة 2-3|6|14 (مستحسن)
+D: بناء الخدمات ونشرها على بنية مؤجرة بأمان وكلفة محسوبة.
+M: يستخدم 59.5% من المجيبين منصات سحابية (2026)، ونما ذكر AWS في إعلانات AI بنسبة 1,358% منذ 2013-2015.
+O: اختيار نموذج الخدمة;نشر تطبيق;ضبط الهوية;تقدير الكلفة
+W: النماذج~مقارنة;IAM~أقل صلاحية;Compute~خادم;Storage~ملفات;VPC~شبكة;قواعد مدارة~ربط;Serverless~Function;الحاويات~نشر;المراقبة~تنبيه;الكلفة~ميزانية
+P: تطبيق ثلاثي الطبقات منشور
+B: Erl, Cloud Computing: Concepts, Technology & Architecture
+A: AWS Well-Architected Framework
+U: AWS Documentation|https://docs.aws.amazon.com/
+
+# System Design|تصميم الأنظمة|هندسة البرمجيات|سنة 4|5|11، 14، 19
+D: تصميم خدمات كبيرة وتبرير المفاضلات.
+M: شكّل المعماريون 6.1% من عينة Stack Overflow 2025.
+O: تقدير الأحمال;اختيار التخزين;تصميم للتوافر;الدفاع عن التصميم
+W: المتطلبات~تقدير;API~تصميم;التخزين~اختيار;Caching~URL Shortener;Load Balancing~تجربة;النسخ والتقسيم~تصميم;الرسائل~إشعارات;الموثوقية~Rate Limiter;المراقبة~SLO;تصميم أنظمة AI~RAG واسع
+P: وثيقة تصميم ونموذج أولي تحت الحمل
+B: Kleppmann, Designing Data-Intensive Applications
+A: Xu, System Design Interview
+U: Google SRE Books|https://sre.google/books/
+
+# Advanced Database Systems|نظم قواعد البيانات المتقدمة|البيانات|سنة 4|4|11، 13
+D: بنية محركات التحليل والتخزين الحديثة.
+M: يتوقع BLS نمو معماريي قواعد البيانات 9.4% مع ثبات المديرين تقريباً.
+O: مقارنة معماريات;تفسير التنفيذ العمودي;تحليل التحسين;قراءة ورقة علمية
+W: OLTP وOLAP~قياس;التخزين العمودي~Parquet;الضغط~تجارب;LSM~تنفيذ;Vectorized Execution~DuckDB;Parallel Joins~قياس;التحسين~خطط;MVCC~عزل;Lakehouse~جدول;Vector Databases~HNSW
+P: مقارنة معيارية موثقة بين محركين
+B: Hellerstein et al., Readings in Database Systems
+A: Petrov, Database Internals
+U: CMU 15-721|https://15721.courses.cs.cmu.edu/
+
+# Data Mining|التنقيب في البيانات|البيانات|سنة 4|4|12، 18
+D: استخراج أنماط مفيدة من بيانات كبيرة.
+M: داعمة لتحليل البيانات وعلم البيانات.
+O: تجهيز بيانات كبيرة;استخراج القواعد;كشف الشذوذ;تقييم الأنماط
+W: العملية~CRISP-DM;التجهيز~تنظيف;التشابه~MinHash;Frequent Itemsets~Apriori;Clustering~DBSCAN;التصنيف~مقارنة;الشذوذ~احتيال;الرسوم~مجتمعات;التوصية~Collaborative;الخصوصية~إخفاء هوية
+P: نظام توصية أو كشف احتيال
+B: Han, Kamber & Pei, Data Mining: Concepts and Techniques
+A: Leskovec et al., Mining of Massive Datasets
+U: Mining of Massive Datasets|http://www.mmds.org/
+
+# Information Retrieval|استرجاع المعلومات|الذكاء الاصطناعي|سنة 4|4|8، 18
+D: علم محركات البحث، وهو نصف أي نظام RAG.
+M: RAG من أسرع مهارات AI نمواً (+337% في 2025).
+O: بناء فهرس;تطبيق الترتيب;قياس الجودة;دمج البحث الدلالي
+W: Boolean~بحث;Inverted Index~تنفيذ;العربية~Stemming;TF-IDF~ترتيب;BM25~مقارنة;التقييم~nDCG;Embeddings~دلالي;ANN~HNSW;Hybrid~Reranking;RAG~تكامل
+P: محرك بحث عربي هجين
+B: Manning et al., Introduction to Information Retrieval
+A: Büttcher et al., Information Retrieval
+U: IR Book|https://nlp.stanford.edu/IR-book/
+
+# Human-Computer Interaction|التفاعل بين الإنسان والحاسوب|التخصصات|سنة 3|4|لا شيء
+D: تصميم أنظمة يفهمها الناس ويستطيعون استخدامها.
+M: يتوقع BLS نمو مصممي الواجهات الرقمية 6.0% ونحو 8,300 فرصة سنوية.
+O: بحث مستخدمين;بناء نموذج أولي;اختبار الاستخدام;تصميم متاح وRTL
+W: المبادئ~نقد;الإدراك~تمارين;البحث~مقابلات;Personas~رحلة;معمارية المعلومات~Card Sorting;Wireframes~Figma;التصميم البصري~نظام;RTL~تعريب;Accessibility~WCAG;الاختبار~5 مستخدمين
+P: إعادة تصميم خدمة محلية مبنية على اختبار
+B: Norman, The Design of Everyday Things
+A: Preece et al., Interaction Design
+U: W3C WAI|https://www.w3.org/WAI/fundamentals/
+
+# The Missing Semester|أدوات المبرمج|النواة البرمجية|سنة 1|4|لا شيء
+D: الأدوات اليومية التي تفترضها الشركات ولا تدرّسها الجامعات عادة.
+M: يستخدم Bash 51.3% من المطورين، وVS Code 70.9% (2026). وورد Version Control ضمن مهارات المطور في ETF.
+O: استخدام Shell;إدارة Git;تصحيح الأخطاء;أتمتة مهمة
+W: Shell~تنقل;Scripting~سكربت;المحرر~إعداد;معالجة النص~سجلات;SSH~خادم;Git~فروع;GitHub~PR;Debugging~gdb وpdb;الأتمتة~Make;مساعدات AI~تحقق من مخرجات
+P: مستودع أدوات شخصية موثق
+B: Chacon & Straub, Pro Git
+A: Shotts, The Linux Command Line
+U: MIT Missing Semester|https://missing.csail.mit.edu/
+
+# Computing Ethics and Professional Practice|أخلاقيات الحوسبة والممارسة المهنية|المهارات المهنية|أي سنة|3|لا شيء
+D: القرارات المسؤولة والعلاقة المهنية مع العميل والمجتمع.
+M: لازمة للعمل عن بُعد والتعاقد الدولي.
+O: تحليل معضلة;احترام الخصوصية والملكية;تقييم مخاطر AI;صياغة اتفاق عمل
+W: المواثيق~ACM Code;الخصوصية~تقييم أثر;الملكية~تراخيص;المصادر المفتوحة~مساهمة;تحيز AI~حالة;الأمن~إفصاح;العقود~عقد;التسعير~عرض
+P: ملف سياسات وعقد لمشروع مستقل
+B: Quinn, Ethics for the Information Age
+A: ACM Code of Ethics
+U: ACM Code of Ethics|https://www.acm.org/code-of-ethics
+
+# JavaScript and TypeScript|البرمجة بلغتي JavaScript وTypeScript|النواة البرمجية|سنة 1-2|6|1
+D: لغة الويب مع نظام أنواع يجعلها صالحة للمشاريع الكبيرة.
+M: JavaScript الأولى بنسبة 62.0%، وTypeScript عند 43.8% (Stack Overflow 2026).
+O: كتابة JavaScript حديثة;إدارة اللاتزامن;تصميم أنواع;اختبار مشروع
+W: الأنواع والتحويل~تمارين;الدوال وClosures~عدادات;الكائنات~نمذجة;المصفوفات~تحويل;Modules~Vite;Event Loop~تتبع;Promises~جلب;TypeScript~ترحيل;Generics~مكتبة;Narrowing~حالات;Zod~تحقق;Vitest~اختبارات
+P: مكتبة TypeScript منشورة ومختبرة
+B: Haverbeke, Eloquent JavaScript
+A: Vanderkam, Effective TypeScript
+U: TypeScript Handbook|https://www.typescriptlang.org/docs/handbook/intro.html
+
+# Data Analysis with Excel and Power BI|تحليل البيانات باستخدام Excel وPower BI|البيانات|مهني|6|لا شيء
+D: من جدول خام إلى لوحة مؤشرات وقرار، دون خلفية برمجية.
+M: ورد Excel في 392 إعلاناً وData Analysis في 222 وBusiness analyst في 1,519 ضمن عينة ETF.
+O: تنظيف البيانات;بناء نموذج;كتابة DAX;عرض توصية
+W: Excel~دوال;البحث~XLOOKUP;PivotTables~تقرير;Power Query~تنظيف;Star Schema~نموذج;الرسوم~اختيار;DAX~مقاييس;الزمن~مقارنات;اللوحات~تصميم;Storytelling~عرض
+P: لوحة تنفيذية لمؤسسة حقيقية
+B: Knaflic, Storytelling with Data
+A: Russo & Ferrari, The Definitive Guide to DAX
+U: Power BI Training|https://learn.microsoft.com/en-us/training/powerplatform/power-bi
+
+# Project Management and Agile|إدارة المشاريع وAgile|المهارات المهنية|مهني|5|لا شيء
+D: تخطيط العمل التقني وتسليمه ضمن الوقت والكلفة.
+M: مدير المشروع 1,770 إعلاناً، وProject Management 495، وAgile 229 ضمن عينة ETF.
+O: صياغة ميثاق;بناء جدول وميزانية;إدارة Sprint;إدارة المخاطر
+W: دورة المشروع~حالة;أصحاب المصلحة~خريطة;النطاق~WBS;الجدولة~Gantt;الكلفة~ميزانية;المخاطر~سجل;Scrum~محاكاة;Kanban~لوحة;التقارير~تقرير حالة;الإغلاق~دروس
+P: إدارة مشروع طلابي حقيقي
+B: Berkun, Making Things Happen
+A: Cagan, Inspired
+U: Scrum Guide|https://scrumguides.org/
+
+# Technical English and Professional Communication|الإنجليزية التقنية والتواصل المهني|المهارات المهنية|أي سنة|4|إنجليزية أساسية
+D: القراءة والكتابة والمقابلة والعمل مع فريق دولي.
+M: Communication المهارة الأولى (1,153 إعلاناً)، والإنجليزية 468 مقابل 40 للعربية ضمن عينة ETF.
+O: قراءة توثيق;كتابة تقنية واضحة;تقديم عرض;اجتياز مقابلة
+W: المفردات~قاموس;التوثيق~تلخيص;البريد~مراسلات;Issues~بلاغات;README~توثيق;الاجتماعات~محاكاة;العروض~عرض;CV وLinkedIn~ملف;مقابلة سلوكية~STAR;مقابلة تقنية~محاكاة
+P: ملف مهني وعرض مسجل بالإنجليزية
+B: Glendinning & McEwan, Oxford English for Information Technology
+A: Zinsser, On Writing Well
+U: Google Technical Writing|https://developers.google.com/tech-writing
